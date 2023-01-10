@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce headphone</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+    <!----------------------------------------- 
+                 NAVEGAÇÃO
+    ------------------------------------------>
+    <header>
+        <a href="#" class="logo"><i class='bx bx-headphone'></i>E-Commerce</a>
+            <ul class="navegacao">
+                <li><a href="#">Visão Geral</a> </li>
+                <li><a href="#">Tech</a> </li>
+                <li><a href="#">Lançamentos</a> </li>
+                <li><a href="#">Contatos</a> </li>
+            </ul>
+
+        <div class="header-icons">
+            <i class='bx bx-cart'></i>
+            <div id="menu"><i class='bx bx-menu' ></i></div>
+        </div>
+    </header> 
+    <!----------------------------------------- 
+                 SLIDER
+    ------------------------------------------>
+    <main>
+        <section class="slid">
+            <div class="slid-img">
+                <img src="product1.png" class="one" alt="">
+            </div>
+
+            <div class="banner-txt">
+                <h1>Wireless <br/> Headphones</h1>
+                <h5>The smarter way to listen</h5>
+                <h3>R$ 199,90</h3>
+
+                <a href="#" class="btn">Clique Aqui!</a>
+            </div>
+
+            <div class="pimg">
+                <div class="row1">
+                    <li><img src="main1.png" onclick="slider('product1.png')" alt=""></li>
+                </div>
+                <div class="row2">
+                    <li><img src="main2.png" onclick="slider('product2.png')" alt=""></li>
+                </div>
+                <div class="row3">
+                    <li><img src="main3.png" onclick="slider('product3.png')" alt=""></li>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+<script src="style.js"></script>
+</body>
+</html>
