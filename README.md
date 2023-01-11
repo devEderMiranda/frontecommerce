@@ -1,1 +1,3 @@
-Meu Primeiro arquivo no GIT eu sou; eu geeeee
+Home inicial desenvolvido com html css e JS
+A home contém Menu e um Banner com imagens Thumbnail interativo.
+Scrip simpreles mas são muito úteis.
